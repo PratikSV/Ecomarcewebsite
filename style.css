@@ -3,7 +3,7 @@
   padding: 0px;
 }
 body{
-  background-color:rgb(0, 0, 46) ;
+  background-color:rgb(0, 0, 0) ;
   color: white;
   font-family: "Poppins";
 }
@@ -12,7 +12,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   height: 80px;
-  background-color: rgb(6, 6, 63);
+  background-color: rgb(6, 8, 30);
 }
 nav ul{
   display: flex;
@@ -27,7 +27,7 @@ nav ul li a{
   text-decoration: none;
 }
 nav ul li a:hover{
-  color: rgb(151, 151, 255);
+  color: rgba(245, 255, 129, 0.854);
   font-size: 1.04rem;
 }
 .left{
@@ -37,7 +37,7 @@ nav ul li a:hover{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 80px 0;
+  margin: 55px 0;
 }
 .firstsection > div{
   width: 30%;
@@ -50,8 +50,13 @@ nav ul li a:hover{
 .rightsection{
   width: 34px;
 }
+.yellow{
+  color: yellow;
+  font-size: 2rem;
+  text-shadow: 2px yellow;
+}
 .rightsection img{
-  width: 80%;
+  width: 90%;
 }
 .purple{
   color: rgb(184, 77, 184);

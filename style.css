@@ -8,18 +8,140 @@
     width: 100%;
     background-color: #0f1111;
     color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .nav-logo{
     height: 50px;
     width: 100px;
 }
 .logo{
-    background-image: url("amazon_logo.png");
+    background-image: url("image/amazon_logo.png");
     height: 50px;
     width: 100%;
     background-size: cover;
 }
-main{
-    color: #0f1111;
-    font-size: 5rem;
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box 2 */
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-icon i{
+ margin-left: 3px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+/* box 3 */
+.nav-search{
+    display: flex;
+    background-color: pink;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    font-size: 1.2rem;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+.nav-search:hover{
+    border: 3px solid orange;
+}
+/* box 4 and 5 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-signin{
+    padding: 0px 9px 10px;
+    margin: 0px 0px 0px 2px;
+}
+
+/* box 6 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-weight: 700;
+    padding: 0px 9px 10px;
+    margin: 0px 0px 0px 2px;
+    font-size: 0.85rem;
+}
+
+/* pannel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    font-weight: bolder;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+    padding: 2px;
+}
+.panel-ops p:hover{
+    border: 1px solid white;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 5px;
+    width: 23%;
+}
+
+/* Hero section */
+.hero-section{
+    background-image: url(image/hero-image.jpg);
+    height:600px;
+    background-size: cover;
 }

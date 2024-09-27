@@ -142,6 +142,49 @@ span{
 /* Hero section */
 .hero-section{
     background-image: url(image/hero-image.jpg);
-    height:600px;
+    height:500px;
     background-size: cover;
+    margin: 0 0.5%;
+}
+
+/* Shop-section */
+.shop-section{
+    display: flex;
+    margin-top: -250px;
+}
+.box{
+    height: 400px;
+    width:30%;
+    margin: 0 0 0 1.3%;
+    background-color:white;
+    border: 1px solid black;
+    padding: 20px;
+}
+.box1{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.box1-image{
+    background: url(image/box1_image.jpg);
+    height: 310px;
+    background-size: cover;
+}
+.box2{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.box2-image{
+    background: url(image/box2-image.jpg);
+    height: 310px;
+    background-size: cover;
+}
+.box .blue-link{
+    color: blue;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 0.85rem;
+    font-weight: 100;
+}
+.box .blue-link:hover{
+    color: orange;
 }

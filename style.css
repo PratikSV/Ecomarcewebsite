@@ -153,7 +153,7 @@ span{
     margin-top: -250px;
 }
 .box{
-    height: 400px;
+    height: 360px;
     width:30%;
     margin: 0 0 0 1.3%;
     background-color:white;
@@ -166,7 +166,7 @@ span{
 }
 .box1-image{
     background: url(image/box1_image.jpg);
-    height: 310px;
+    height: 290px;
     background-size: cover;
 }
 .box2{
@@ -175,7 +175,7 @@ span{
 }
 .box2-image{
     background: url(image/box2-image.jpg);
-    height: 310px;
+    height: 290px;
     background-size: cover;
 }
 .box .blue-link{
@@ -187,4 +187,123 @@ span{
 }
 .box .blue-link:hover{
     color: orange;
+}
+.box3{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.box3 .home{
+    height: 38%;
+    width: 100%;
+    margin-bottom: 4%;
+    display: flex;
+}
+.box3 .kichen{
+    height: 38%;
+    width: 100%;
+    display: flex;
+}
+.image1{
+    background-color:white;
+    width: 48%;
+    height: 100%;
+}
+.image2{
+    background-color: white;
+    width: 48%;
+    height: 100%;
+    margin-left: 4%;
+}
+.box4{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.box4 .home{
+    height: 38%;
+    width: 100%;
+    margin-bottom: 4%;
+    display: flex;
+}
+.box4 .kichen{
+    height: 38%;
+    width: 100%;
+    display: flex;
+}
+
+.box3 .home .image1 .img{
+    height: 80%;
+    background-image: url(image/box3\ image1.jpg);
+}
+.box3 .home .image1 {
+    font-size: 0.85rem;
+    font-weight: lighter;
+    height: 100%;
+}
+.box3 .home .image2 .img{
+    height: 80%;
+    background-image: url(image/box3\ image2.jpg);
+}
+.box3 .home .image2 {
+    font-size: 0.85rem;
+    font-weight: lighter;
+    height: 100%;
+}
+.box3 .kichen .image1 .img{
+    height: 80%;
+    background-image: url(image/box3\ image3.jpg);
+}
+.box3 .kichen .image1 {
+    font-size: 0.85rem;
+    font-weight: lighter;
+    height: 100%;
+}
+.box3 .kichen .image2 .img{
+    height: 80%;
+    background-image: url(image/box3\ image4.jpg);
+}
+.box3 .kichen .image2 {
+    font-size: 0.85rem;
+    font-weight: lighter;
+    height: 100%;
+}
+
+.box4 .home .image1 .img{
+    height: 80%;
+    background-image: url(image/box4_image1.jpg);
+}
+.box4 .home .image1 {
+    font-size: 0.85rem;
+    font-weight: lighter;
+    height: 100%;
+}
+.box4 .home .image2 .img{
+    height: 80%;
+    background-image: url(image/box4\ 2image.jpg);
+}
+.box4 .home .image2 {
+    font-size: 0.85rem;
+    font-weight: lighter;
+    height: 100%;
+}
+.box4 .kichen .image2 .img{
+    height: 80%;
+    background-image: url(image/box4\ image3.jpg);
+}
+.box4 .kichen .image2 {
+    font-size: 0.85rem;
+    font-weight: lighter;
+    height: 100%;
+}
+.box4 .kichen .image1 .img{
+    height: 80%;
+    background-image: url(image/box4\ image4.jpg);
+}
+.box4 .kichen .image1 {
+    font-size: 0.85rem;
+    font-weight: lighter;
+    height: 100%;
+}
+
+.coverimg{
+    background-size: cover;
 }

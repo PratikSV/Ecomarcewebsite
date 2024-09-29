@@ -160,7 +160,7 @@ span{
     margin-top: 1.9%;
 }
 .box{
-    height: 360px;
+    height: 370px;
     width:30%;
     margin: 0 0.6%;
     background-color:white;
@@ -192,7 +192,7 @@ span{
 }
 .blue-link{
     color: blue;
-    margin-top: 10px;
+    margin: top 10px;;
     height: 30px;
     font-size: 0.85rem;
     font-weight: 100;
@@ -378,7 +378,7 @@ span{
     margin-right: 1%;
 }
 /* footer */
-.footer{
+footer{
     height: 500px;
     width: 100%;
     background-color: aquamarine;
